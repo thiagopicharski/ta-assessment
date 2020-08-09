@@ -1,4 +1,4 @@
-# Case of study - Selenium
+# Case study - Selenium
 
 ### Create automated tests based on the story below
 **Log into the system through given credentials**
