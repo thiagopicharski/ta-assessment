@@ -59,8 +59,8 @@ public class TestBase {
 				String projectPath = System.getProperty("user.dir");
 			    System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/Drivers/chromedriver.exe");
 				driver = new ChromeDriver();
-				driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-				driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+				driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+				driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 				driver.manage().window().maximize();
 				break;
 			case FIREFOX:

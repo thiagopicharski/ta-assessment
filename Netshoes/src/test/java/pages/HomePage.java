@@ -37,11 +37,11 @@ public class HomePage extends TestBase{
 		Helpers.Click(linkTextLogin(text));
 	}
 	
-	public static String GetTextUsername() {
+	public static String GetTextUsername() throws Throwable {
 		return Helpers.GetText(ddlUserNameLogged());
 	}
 	
-	public static String GetErrorShown() {
+	public static String GetErrorShown() throws Throwable {
 		return Helpers.GetText(txtError());
 	}
 	
@@ -51,11 +51,11 @@ public class HomePage extends TestBase{
 		SelectLogin(text);
 	}
 	
-	public static void ValidateLoggedHomePage() {
+	public static void ValidateLoggedHomePage() throws Throwable {
 		assertTrue(!GetTextUsername().isEmpty());
 	}
 	
-	public static void ValidateErrorFaildLogin(String expectedErrorMessage) {
+	public static void ValidateErrorFaildLogin(String expectedErrorMessage) throws Throwable {
 		assertEquals(expectedErrorMessage, GetErrorShown());
 	}
 }

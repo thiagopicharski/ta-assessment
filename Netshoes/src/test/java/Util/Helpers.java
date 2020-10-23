@@ -31,8 +31,16 @@ public class Helpers extends TestBase {
 		builder.moveToElement(driver.findElement(By.xpath("//*[@"+element+"]"))).perform();
 	}
 	
-	public static String GetText(By by) {
-		return driver.findElement(by).getText();		
+	public static String GetText(By by) throws Throwable {
+		
+		for (int i = 0; i < 30; i++) {
+			try {
+				return driver.findElement(by).getText();
+			} catch (Exception e) {
+				Thread.sleep(1000);
+			}
+		}
+		return null;				
 	}
 	
 }
