@@ -24,7 +24,7 @@ As teclas devem ser informadas na ordem para a formação correta da palavra.
 Conforme o exemplo abaixo, cada tecla deve ser precedida por um cerquilha (#).
 A quantidade de vezes deve vir logo em seguida à tecla separada por um igual (=) conforme exemplo.
 
-####Exemplo
+#### Exemplo
 Entrada:
 ```
 internet
@@ -41,7 +41,7 @@ Saída:
 #8=1
 ```  
 
-####Acceptance criteria
+### Acceptance criteria
 
 Source Code available:
 - We should be able to access the code with your solution
@@ -51,7 +51,7 @@ Running your code:
 - Should pass in all automated tests that we run
 - Should use the exact pattern proposed for input and output
 
-###Notes
+### Notes
 1. Use Java 8 or above to develop your solution
 2. Create a branch with your name and push your code in this branch as described below
 
