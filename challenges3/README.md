@@ -1,6 +1,6 @@
 # Test Automation Training
 
-## 1st Challenge:
+## 3rd Challenge:
 
 ### Java project configuration
 
@@ -27,8 +27,8 @@ input: Array representing the linking value of each dish
 Return maximum like-to-time coefficient possible
 
 **Acceptance Criteria:**
-1. Check that solution returns the correct coeffient for a valid input of dishes
-2. Check the solution when a dish must be removed and when anyone is removed
+1. Check that solution returns the correct coefficient for a valid input of dishes
+2. Check the solution when a dish must be removed and when no one is removed
 
 Examples:
 
@@ -41,7 +41,7 @@ input: {-1,-9,0,5,-7} #Dish -9 and -7 must be removed
 Output: 14
 
 ## Class usage
-Save your class as first-challenge/LikeToTimeDishes.java
+Save your class as challenges3/LikeToTimeDishes.java
 
 Example of usage:
 ```java
@@ -62,4 +62,4 @@ System.out.println(solution);
 ```
 
 ## Push your changes to your own branch
-git checkout -b firstchallenge/\<firstname.lastname\>
+git checkout -b thirdchallenge/\<firstname.lastname\>
